@@ -66,3 +66,8 @@ function handleClick(cb) {
     value = cb.checked
     data()
 }
+
+function scrollToBottom() {
+    const finalElement = document.getElementById("end");
+    finalElement.scrollIntoView({ behavior: "smooth" });
+}
